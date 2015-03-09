@@ -1,0 +1,18 @@
+[0m[[0minfo[0m] [0mCounterSpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mThe Counter model should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m allow the creation of a valid counter[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m allow the creation of a valid counter[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m allow the creation of a valid counter[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m allow the creation of a valid counter[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m require min < max[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m require min <= value <= max[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m require min <= value <= max[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mThe spray JSON marshaler should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m write a counter to JSON[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m read a counter from JSON[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification CounterSpec[0m
+[0m[[0minfo[0m] [0m[36mFinished in 3 ms[0m[0m
+[0m[[0minfo[0m] [0m[36m[0m[36m9 examples, 0 failure, 0 error[0m[0m

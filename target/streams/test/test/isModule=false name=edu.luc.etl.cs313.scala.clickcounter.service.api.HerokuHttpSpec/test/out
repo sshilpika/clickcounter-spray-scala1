@@ -1,0 +1,20 @@
+[0m[[0minfo[0m] [0mHerokuHttpSpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mThe click counter service, on its collection of counters, should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m allow the creation of a new counter[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m include the newly created counter in the list of counters[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m retrieve an existing counter[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m delete an existing counter[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mThe click counter service, on a specific counter, should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m allow the creation of a new counter[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m refuse to decrement the counter initially[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m reset the counter[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[36m*[0m retrieve a counter value stream TODO[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mThe click counter service, on a specific counter, should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m increment the counter[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification HerokuHttpSpec[0m
+[0m[[0minfo[0m] [0m[36mFinished in 2 seconds, 30 ms[0m[0m
+[0m[[0minfo[0m] [0m[36m[0m[36m9 examples, 0 failure, 0 error, 1 pending[0m[0m

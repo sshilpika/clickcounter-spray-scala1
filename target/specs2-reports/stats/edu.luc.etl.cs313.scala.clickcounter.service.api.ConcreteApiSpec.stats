@@ -1,0 +1,3 @@
+<edu.luc.etl.cs313.scala.clickcounter.service.api.ConcreteApiSpec-results timestamp="1425875114626"><result location="edu.luc.etl.cs313.scala.clickcounter.service.api.ApiSpec (ApiSpec.scala:102)" id="1847309174"><stats pending="1" time="3" expectations="1" examples="1"></stats></result>
+</edu.luc.etl.cs313.scala.clickcounter.service.api.ConcreteApiSpec-results>
+<edu.luc.etl.cs313.scala.clickcounter.service.api.ConcreteApiSpec-stats timestamp="1425875114635"><stats pending="1" time="1209" expectations="9" successes="8" examples="9"></stats></edu.luc.etl.cs313.scala.clickcounter.service.api.ConcreteApiSpec-stats>

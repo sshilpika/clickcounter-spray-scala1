@@ -1,0 +1,11 @@
+<edu.luc.etl.cs313.scala.clickcounter.service.api.LocalHttpSpec-results timestamp="1425875118820"><result location="edu.luc.etl.cs313.scala.clickcounter.service.api.HttpSpec (HttpSpec.scala:40)" id="-953720497"><stats time="10" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.api.HttpSpec (HttpSpec.scala:46)" id="-786886318"><stats time="8" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.api.HttpSpec (HttpSpec.scala:52)" id="-523373034"><stats time="5" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.api.HttpSpec (HttpSpec.scala:61)" id="430779909"><stats time="5" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.api.HttpSpec (HttpSpec.scala:70)" id="-953720497"><stats time="5" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.api.HttpSpec (HttpSpec.scala:76)" id="-657589544"><stats time="5" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.api.HttpSpec (HttpSpec.scala:82)" id="-678822916"><stats time="5" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.api.HttpSpec (HttpSpec.scala:95)" id="1847309174"><stats pending="1" expectations="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.api.HttpSpecWithIncrement (HttpSpec.scala:105)" id="-1771685348"><stats time="5" expectations="1" errors="1" examples="1"></stats></result>
+</edu.luc.etl.cs313.scala.clickcounter.service.api.LocalHttpSpec-results>
+<edu.luc.etl.cs313.scala.clickcounter.service.api.LocalHttpSpec-stats timestamp="1425875118845"><stats pending="1" time="58" expectations="9" errors="8" examples="9"></stats></edu.luc.etl.cs313.scala.clickcounter.service.api.LocalHttpSpec-stats>

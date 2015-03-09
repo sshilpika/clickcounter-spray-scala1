@@ -1,0 +1,3 @@
+<edu.luc.etl.cs313.scala.clickcounter.service.api.HerokuHttpSpec-results timestamp="1425875121412"><result location="edu.luc.etl.cs313.scala.clickcounter.service.api.HttpSpec (HttpSpec.scala:95)" id="1847309174"><stats pending="1" expectations="1" examples="1"></stats></result>
+</edu.luc.etl.cs313.scala.clickcounter.service.api.HerokuHttpSpec-results>
+<edu.luc.etl.cs313.scala.clickcounter.service.api.HerokuHttpSpec-stats timestamp="1425875121419"><stats pending="1" time="2030" expectations="9" successes="8" examples="9"></stats></edu.luc.etl.cs313.scala.clickcounter.service.api.HerokuHttpSpec-stats>

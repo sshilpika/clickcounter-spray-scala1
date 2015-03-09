@@ -1,0 +1,8 @@
+<edu.luc.etl.cs313.scala.clickcounter.service.repository.RedisRepositorySpec-results timestamp="1425875112248"><result location="edu.luc.etl.cs313.scala.clickcounter.service.repository.RepositorySpec (RepositorySpec.scala:18)" id="466259793"><stats time="414" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.repository.RepositorySpec (RepositorySpec.scala:22)" id="-669359815"><stats time="416" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.repository.RepositorySpec (RepositorySpec.scala:27)" id="-1601386582"><stats time="409" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.repository.RepositorySpec (RepositorySpec.scala:32)" id="-1122829820"><stats time="408" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.repository.RepositorySpec (RepositorySpec.scala:37)" id="1380447308"><stats time="98" expectations="1" errors="1" examples="1"></stats></result>
+<result location="edu.luc.etl.cs313.scala.clickcounter.service.repository.RepositorySpec (RepositorySpec.scala:42)" id="-1910823656"><stats time="96" expectations="1" errors="1" examples="1"></stats></result>
+</edu.luc.etl.cs313.scala.clickcounter.service.repository.RedisRepositorySpec-results>
+<edu.luc.etl.cs313.scala.clickcounter.service.repository.RedisRepositorySpec-stats timestamp="1425875112289"><stats time="67" expectations="6" errors="6" examples="6"></stats></edu.luc.etl.cs313.scala.clickcounter.service.repository.RedisRepositorySpec-stats>

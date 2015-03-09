@@ -1,0 +1,85 @@
+[0m[[0minfo[0m] [0mRedisRepositorySpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mThe repository should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m not retrieve a nonexisting item[0m[0m
+[0m[[31merror[0m] [0m   RedisIOException: : Could not connect to localhost/127.0.0.1:6379  (ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor$$anonfun$connecting$1.applyOrElse(ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0makka.actor.Actor$class.aroundReceive(Actor.scala:465)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor.aroundReceive(ListenerActor.scala:27)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receiveMessage(ActorCell.scala:516)[0m
+[0m[[31merror[0m] [0makka.actor.dungeon.DeathWatch$class.receivedTerminated(DeathWatch.scala:46)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receivedTerminated(ActorCell.scala:369)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.autoReceiveMessage(ActorCell.scala:501)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.invoke(ActorCell.scala:486)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.run(Mailbox.scala:220)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m retrieve an existing item[0m[0m
+[0m[[31merror[0m] [0m   RedisIOException: : Could not connect to localhost/127.0.0.1:6379  (ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor$$anonfun$connecting$1.applyOrElse(ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0makka.actor.Actor$class.aroundReceive(Actor.scala:465)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor.aroundReceive(ListenerActor.scala:27)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receiveMessage(ActorCell.scala:516)[0m
+[0m[[31merror[0m] [0makka.actor.dungeon.DeathWatch$class.receivedTerminated(DeathWatch.scala:46)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receivedTerminated(ActorCell.scala:369)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.autoReceiveMessage(ActorCell.scala:501)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.invoke(ActorCell.scala:486)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.run(Mailbox.scala:220)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m delete an existing item[0m[0m
+[0m[[31merror[0m] [0m   RedisIOException: : Could not connect to localhost/127.0.0.1:6379  (ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor$$anonfun$connecting$1.applyOrElse(ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0makka.actor.Actor$class.aroundReceive(Actor.scala:465)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor.aroundReceive(ListenerActor.scala:27)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receiveMessage(ActorCell.scala:516)[0m
+[0m[[31merror[0m] [0makka.actor.dungeon.DeathWatch$class.receivedTerminated(DeathWatch.scala:46)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receivedTerminated(ActorCell.scala:369)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.autoReceiveMessage(ActorCell.scala:501)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.invoke(ActorCell.scala:486)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.run(Mailbox.scala:220)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m not update an nonexisting item[0m[0m
+[0m[[31merror[0m] [0m   RedisIOException: : Could not connect to localhost/127.0.0.1:6379  (ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor$$anonfun$connecting$1.applyOrElse(ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0makka.actor.Actor$class.aroundReceive(Actor.scala:465)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor.aroundReceive(ListenerActor.scala:27)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receiveMessage(ActorCell.scala:516)[0m
+[0m[[31merror[0m] [0makka.actor.dungeon.DeathWatch$class.receivedTerminated(DeathWatch.scala:46)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receivedTerminated(ActorCell.scala:369)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.autoReceiveMessage(ActorCell.scala:501)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.invoke(ActorCell.scala:486)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.run(Mailbox.scala:220)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m update an existing item[0m[0m
+[0m[[31merror[0m] [0m   RedisIOException: : Could not connect to localhost/127.0.0.1:6379  (ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor$$anonfun$connecting$1.applyOrElse(ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0makka.actor.Actor$class.aroundReceive(Actor.scala:465)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor.aroundReceive(ListenerActor.scala:27)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receiveMessage(ActorCell.scala:516)[0m
+[0m[[31merror[0m] [0makka.actor.dungeon.DeathWatch$class.receivedTerminated(DeathWatch.scala:46)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receivedTerminated(ActorCell.scala:369)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.autoReceiveMessage(ActorCell.scala:501)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.invoke(ActorCell.scala:486)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.run(Mailbox.scala:220)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m not update an existing item when preconditions are violated[0m[0m
+[0m[[31merror[0m] [0m   RedisIOException: : Could not connect to localhost/127.0.0.1:6379  (ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor$$anonfun$connecting$1.applyOrElse(ListenerActor.scala:372)[0m
+[0m[[31merror[0m] [0makka.actor.Actor$class.aroundReceive(Actor.scala:465)[0m
+[0m[[31merror[0m] [0mscredis.io.ListenerActor.aroundReceive(ListenerActor.scala:27)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receiveMessage(ActorCell.scala:516)[0m
+[0m[[31merror[0m] [0makka.actor.dungeon.DeathWatch$class.receivedTerminated(DeathWatch.scala:46)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.receivedTerminated(ActorCell.scala:369)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.autoReceiveMessage(ActorCell.scala:501)[0m
+[0m[[31merror[0m] [0makka.actor.ActorCell.invoke(ActorCell.scala:486)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)[0m
+[0m[[31merror[0m] [0makka.dispatch.Mailbox.run(Mailbox.scala:220)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification RedisRepositorySpec[0m
+[0m[[0minfo[0m] [0m[36mFinished in 67 ms[0m[0m
+[0m[[0minfo[0m] [0m[36m[0m[36m6 examples, 0 failure, 6 errors[0m[0m

@@ -1,0 +1,428 @@
+[0m[[0minfo[0m] [0mLocalHttpSpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mThe click counter service, on its collection of counters, should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m allow the creation of a new counter[0m[0m
+[0m[[31merror[0m] [0m   ExecutionException: : java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123?min=0&max=5  (NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyResponseFuture.abort(NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:107)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123?min=0&max=5[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m include the newly created counter in the list of counters[0m[0m
+[0m[[31merror[0m] [0m   ExecutionException: : java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters  (NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyResponseFuture.abort(NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:107)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m retrieve an existing counter[0m[0m
+[0m[[31merror[0m] [0m   ExecutionException: : java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123  (NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyResponseFuture.abort(NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:107)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m delete an existing counter[0m[0m
+[0m[[31merror[0m] [0m   ExecutionException: : java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123  (NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyResponseFuture.abort(NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:107)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mThe click counter service, on a specific counter, should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m allow the creation of a new counter[0m[0m
+[0m[[31merror[0m] [0m   ExecutionException: : java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123?min=0&max=5  (NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyResponseFuture.abort(NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:107)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123?min=0&max=5[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m refuse to decrement the counter initially[0m[0m
+[0m[[31merror[0m] [0m   ExecutionException: : java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123/decrement  (NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyResponseFuture.abort(NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:107)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123/decrement[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m reset the counter[0m[0m
+[0m[[31merror[0m] [0m   ExecutionException: : java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123/reset  (NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyResponseFuture.abort(NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:107)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123/reset[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[36m*[0m retrieve a counter value stream TODO[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mThe click counter service, on a specific counter, should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m increment the counter[0m[0m
+[0m[[31merror[0m] [0m   ExecutionException: : java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123/increment  (NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyResponseFuture.abort(NettyResponseFuture.java:342)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:107)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080 to http://localhost:8080/counters/123/increment[0m
+[0m[[31merror[0m] [0mcom.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:103)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:427)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:418)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:380)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:109)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mCaused by java.net.ConnectException: Connection refused: localhost/127.0.0.1:8080[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.checkConnect(Native Method)[0m
+[0m[[31merror[0m] [0msun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)[0m
+[0m[[31merror[0m] [0morg.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification LocalHttpSpec[0m
+[0m[[0minfo[0m] [0m[36mFinished in 58 ms[0m[0m
+[0m[[0minfo[0m] [0m[36m[0m[36m9 examples, 0 failure, 8 errors, 1 pending[0m[0m

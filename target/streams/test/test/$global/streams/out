@@ -1,0 +1,22 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(edu.luc.etl.cs313.scala.clickcounter.service.repository.RedisRepositorySpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(edu.luc.etl.cs313.scala.clickcounter.service.RedisSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(edu.luc.etl.cs313.scala.clickcounter.service.api.ConcreteApiSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(edu.luc.etl.cs313.scala.clickcounter.service.api.ApiaryHttpSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(edu.luc.etl.cs313.scala.clickcounter.service.api.LocalHttpSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(edu.luc.etl.cs313.scala.clickcounter.service.api.HerokuHttpSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(edu.luc.etl.cs313.scala.clickcounter.service.repository.InMemoryRepositorySpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(edu.luc.etl.cs313.scala.clickcounter.service.model.CounterSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
+[0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
+[0m[[31merror[0m] [0mError: Total 53, Failed 0, Errors 15, Passed 38, Pending 4[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	edu.luc.etl.cs313.scala.clickcounter.service.api.ApiaryHttpSpec[0m
+[0m[[0mdebug[0m] [0m	edu.luc.etl.cs313.scala.clickcounter.service.api.HerokuHttpSpec[0m
+[0m[[0mdebug[0m] [0m	edu.luc.etl.cs313.scala.clickcounter.service.model.CounterSpec[0m
+[0m[[0mdebug[0m] [0m	edu.luc.etl.cs313.scala.clickcounter.service.api.ConcreteApiSpec[0m
+[0m[[0mdebug[0m] [0m	edu.luc.etl.cs313.scala.clickcounter.service.repository.InMemoryRepositorySpec[0m
+[0m[[31merror[0m] [0mError during tests:[0m
+[0m[[31merror[0m] [0m	edu.luc.etl.cs313.scala.clickcounter.service.repository.RedisRepositorySpec[0m
+[0m[[31merror[0m] [0m	edu.luc.etl.cs313.scala.clickcounter.service.api.LocalHttpSpec[0m
+[0m[[31merror[0m] [0m	edu.luc.etl.cs313.scala.clickcounter.service.RedisSpec[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

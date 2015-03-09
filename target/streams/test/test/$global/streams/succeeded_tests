@@ -1,0 +1,7 @@
+#Successful Tests
+#Sun Mar 08 23:25:22 CDT 2015
+edu.luc.etl.cs313.scala.clickcounter.service.api.ApiaryHttpSpec=1425875118620
+edu.luc.etl.cs313.scala.clickcounter.service.repository.InMemoryRepositorySpec=1425875121761
+edu.luc.etl.cs313.scala.clickcounter.service.api.HerokuHttpSpec=1425875121535
+edu.luc.etl.cs313.scala.clickcounter.service.model.CounterSpec=1425875122021
+edu.luc.etl.cs313.scala.clickcounter.service.api.ConcreteApiSpec=1425875114784
